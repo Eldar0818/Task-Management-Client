@@ -1,0 +1,133 @@
+.page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 600px;
+    width: 100%;
+    padding: 25px 35px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+
+.container header{
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon{
+    width: 75px;
+    height: 75px;
+    border: 5px solid skyblue;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 25px;
+    letter-spacing: 1.1px;
+    color: royalblue;
+}
+
+.container form{
+    width: 100%;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+.inputs label{
+   padding-bottom: 15px;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    color: #7c7c7c;
+}
+
+.inputs input{
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 0 5px;
+}
+
+.passInputs{
+    position: relative;
+}
+
+.revealIcon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    color: #7c7c7c;
+}
+
+.submitBtn{
+    margin-top: 25px;
+    max-width: 165px;
+    width: 100%;
+    height: 45px;
+    border: 5px solid royalblue;
+    background-color: royalblue;
+    color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    letter-spacing: 1.1px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.submitBtn:hover{
+    background: transparent;
+    color: royalblue;
+}
+
+.terms{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.terms input{
+    width: 15px;
+    height: 15px;
+}
+
+.terms span{
+    padding-left: 5px;
+    font-size: 15px;
+    color: #111;
+}
+
+.redirect{
+    font-size: 15px;
+    color: #7c7c7c;
+    font-style: italic;
+    letter-spacing: 1.1px;
+}
+
+.redirect a{
+    color: royalblue;
+    text-decoration: underline;
+    font-weight: 500;
+}
